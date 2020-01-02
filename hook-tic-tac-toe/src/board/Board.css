@@ -1,0 +1,17 @@
+.board {
+    display: grid;
+    grid-template-columns: 33.333% 33.333% 33.333%;
+    grid-template-rows: 33.333% 33.333% 33.333%;
+    grid-template-areas: 
+        "tile-0 tile-1 tile-2"
+        "tile-3 tile-4 tile-5"
+        "tile-6 tile-7 tile-8";
+
+    height: 400px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
